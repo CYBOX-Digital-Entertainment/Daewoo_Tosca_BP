@@ -153,13 +153,13 @@
 			"main_windows_open": {
 				"minecraft:mark_variant": {
 					"value": 1
-				}
+				},
 				"minecraft:use_animation": "roll_down"
 			},
 			"main_windows_close": {
 				"minecraft:mark_variant": {
 					"value": 0
-				}
+				},
 				"minecraft:use_animation": "roll_up"
 			},
 
