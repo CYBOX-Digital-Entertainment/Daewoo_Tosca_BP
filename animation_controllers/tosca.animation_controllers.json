@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+    "controller.animation.roll_down": {
+      "initial_state" : "default",
+	  "states": {
+        "default": {
+          "transitions": [ { "roll_down": "query.is_item_name_any('slot.hotbar', 'addon:roll_down" } ]
+        },
+        "roll_down": {
+          "transitions": [ { "default": "query.is_item_name_any('slot.hotbar', 'addon:roll_down" } ]
+        }
+      }
+    },
+	"controller.animation.roll_up": {
+      "initial_state" : "default",
+	  "states": {
+        "default": {
+          "transitions": [ { "roll_up": "query.is_item_name_any('slot.hotbar', 'addon:roll_up" } ]
+        },
+        "roll_down": {
+          "transitions": [ { "default": "query.is_item_name_any('slot.hotbar', 'addon:roll_up" } ]
+        }
+      }
+    }
+  }
+}
