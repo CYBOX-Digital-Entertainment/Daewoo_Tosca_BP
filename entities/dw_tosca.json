@@ -231,6 +231,9 @@
 				"minecraft:use_animation": "key"
 			},
 			"speed0": {
+				"minecraft:variant": {
+					"value": 0
+				},
 				"minecraft:movement": {
 					"value": 0.25
 				},
@@ -240,21 +243,33 @@
 				"minecraft:movement": {
 					"value": 0.375
 				},
+				"minecraft:variant": {
+					"value": 1
+				},
 				"minecraft:use_animation": "speed1"
 			},
 			"speed2": {
+				"minecraft:variant": {
+					"value": 2
+				},
 				"minecraft:movement": {
 					"value": 0.5
 				},
 				"minecraft:use_animation": "speed2"
 			},
 			"speed3": {
+				"minecraft:variant": {
+					"value": 3
+				},
 				"minecraft:movement": {
 					"value": 0.735
 				},
 				"minecraft:use_animation": "speed3"
 			},
 			"speed4": {
+				"minecraft:variant": {
+					"value": 4
+				},
 				"minecraft:movement": {
 					"value": 1
 				},
