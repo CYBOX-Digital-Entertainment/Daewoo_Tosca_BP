@@ -1,0 +1,17 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "addon:dw_tosca_horn",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "dw_tosca_horn"
+            },
+            "minecraft:display_name":{
+                "value": "horn"
+            }
+        }
+    }
+}
