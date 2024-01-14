@@ -452,7 +452,7 @@
 				}
 			},
 			"speed0": {
-				"minecraft:variant": {
+				"minecraft:mark_variant":{
 					"value": 0
 				},
 				"minecraft:movement": {
@@ -460,7 +460,7 @@
 				}
 			},
 			"speed1": {
-				"minecraft:variant": {
+				"minecraft:mark_variant":{
 					"value": 1
 				},
 				"minecraft:movement": {
@@ -468,7 +468,7 @@
 				}
 			},
 			"speed2": {
-				"minecraft:variant": {
+				"minecraft:mark_variant":{
 					"value": 2
 				},
 				"minecraft:movement": {
@@ -476,7 +476,7 @@
 				}
 			},
 			"speed3": {
-				"minecraft:variant": {
+				"minecraft:mark_variant":{
 					"value": 3
 				},
 				"minecraft:movement": {
@@ -487,7 +487,7 @@
 				}
 			},
 			"speed4": {
-				"minecraft:variant": {
+				"minecraft:mark_variant":{
 					"value": 4
 				},
 				"minecraft:movement": {
