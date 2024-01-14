@@ -6,32 +6,13 @@
 			"is_spawnable": true,
 			"is_summonable": true,
 			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"cybox:dw_tosca"
+				]
+			},
 			"animations": {
-				"back_mirror_open": "animation.tosca.back_mirror_open",
-				"back_mirror_close": "animation.tosca.back_mirror_close",
-				"light_on": "animation.tosca.light_on",
-				"light_off": "animation.tosca.light_off",
-				"left_signal": "animation.tosca.light_on_left_signal",
-				"right_signal": "animation.tosca.light_on_right_signal",
-				"right_front_door_open": "animation.tosca.right_front_door_open",
-				"right_front_door_close": "animation.tosca.right_front_door_close",
-				"roll_up": "animation.tosca.main_windows_close",
-				"roll_down": "animation.tosca.main_windows_open",
-				"right_second_door_open": "animation.tosca.right_door_open",
-				"right_second_door_close": "animation.tosca.right_door_close",
-				"left_front_door_open": "animation.tosca.left_front_door_open",
-				"left_front_door_close": "animation.tosca.left_front_door_close",
-				"left_second_door_open": "animation.tosca.left_door_open",
-				"left_second_door_close": "animation.tosca.left_door_close",
-				"bonnet_open": "animation.tosca.bonnet_open",
-				"bonnet_close": "animation.tosca.bonnet_close",
-				"pedal": "animation.tosca.pedal",
-				"key": "animation.tosca.key",
-				"speed0": "animation.tosca.speed0",
-				"speed1": "animation.tosca.speed1",
-				"speed2": "animation.tosca.speed2",
-				"speed3": "animation.tosca.speed3",
-				"speed4": "animation.tosca.speed4"
+				"cybox:dw_tosca": "controller.animation.tosca"
 			}
 		},
 		"components": {
@@ -365,95 +346,153 @@
 					"value": 9
 				}
 			},
+			"tosca_normal": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
 			"back_mirror_open": {
-				"minecraft:use_animation": "back_mirror_open"
+				"minecraft:skin_id": {
+					"value": 1
+				}
 			},
 			"back_mirror_close": {
-				"minecraft:use_animation": "back_mirror_close"
+				"minecraft:skin_id": {
+					"value": 2
+				}
 			},
 			"light_on": {
-				"minecraft:use_animation": "light_on"
+				"minecraft:skin_id": {
+					"value": 3
+				}
 			},
 			"light_off": {
-				"minecraft:use_animation": "light_off"
+				"minecraft:skin_id": {
+					"value": 4
+				}
 			},
 			"left_signal": {
-				"minecraft:use_animation": "left_signal"
+				"minecraft:skin_id": {
+					"value": 5
+				}
 			},
 			"right_signal": {
-				"minecraft:use_animation": "right_signal"
+				"minecraft:skin_id": {
+					"value": 6
+				}
 			},
 			"right_front_door_open": {
-				"minecraft:use_animation": "right_front_door_open"
+				"minecraft:skin_id": {
+					"value": 7
+				}
 			},
 			"right_front_door_close": {
-				"minecraft:use_animation": "right_front_door_close"
+				"minecraft:skin_id": {
+					"value": 8
+				}
 			},
 			"roll_up": {
-				"minecraft:use_animation": "roll_up"
+				"minecraft:skin_id": {
+					"value": 9
+				}
 			},
 			"roll_down": {
-				"minecraft:use_animation": "roll_down"
+				"minecraft:skin_id": {
+					"value": 10
+				}
 			},
 			"right_second_door_open": {
-				"minecraft:use_animation": "right_second_door_open"
+				"minecraft:skin_id": {
+					"value": 11
+				}
 			},
 			"right_second_door_close": {
-				"minecraft:use_animation": "right_second_door_close"
+				"minecraft:skin_id": {
+					"value": 12
+				}
 			},
 			"left_front_door_open": {
-				"minecraft:use_animation": "left_front_door_open"
+				"minecraft:skin_id": {
+					"value": 13
+				}
 			},
 			"left_front_door_close": {
-				"minecraft:use_animation": "left_front_door_close"
+				"minecraft:skin_id": {
+					"value": 14
+				}
 			},
 			"left_second_door_open": {
-				"minecraft:use_animation": "left_second_door_open"
+				"minecraft:skin_id": {
+					"value": 15
+				}
 			},
 			"left_second_door_close": {
-				"minecraft:use_animation": "left_second_door_close"
+				"minecraft:skin_id": {
+					"value": 16
+				}
 			},
 			"bonnet_open": {
-				"minecraft:use_animation": "bonnet_open"
+				"minecraft:skin_id": {
+					"value": 17
+				}
 			},
 			"bonnet_close": {
-				"minecraft:use_animation": "bonnet_close"
+				"minecraft:skin_id": {
+					"value": 18
+				}
 			},
 			"pedal": {
-				"minecraft:use_animation": "pedal"
+				"minecraft:skin_id": {
+					"value": 19
+				}
 			},
 			"key": {
-				"minecraft:use_animation": "key"
+				"minecraft:skin_id": {
+					"value": 20
+				}
 			},
 			"speed0": {
+				"minecraft:variant": {
+					"value": 0
+				},
 				"minecraft:movement": {
 					"value": 0.25
-				},
-				"minecraft:use_animation": "speed0"
+				}
 			},
 			"speed1": {
+				"minecraft:variant": {
+					"value": 1
+				},
 				"minecraft:movement": {
 					"value": 0.375
-				},
-				"minecraft:use_animation": "speed1"
+				}
 			},
 			"speed2": {
+				"minecraft:variant": {
+					"value": 2
+				},
 				"minecraft:movement": {
 					"value": 0.5
-				},
-				"minecraft:use_animation": "speed2"
+				}
 			},
 			"speed3": {
+				"minecraft:variant": {
+					"value": 3
+				},
 				"minecraft:movement": {
 					"value": 0.735
 				},
-				"minecraft:use_animation": "speed3"
+				"minecraft:skin_id": {
+					"value": 24
+				}
 			},
 			"speed4": {
+				"minecraft:variant": {
+					"value": 4
+				},
 				"minecraft:movement": {
 					"value": 1
-				},
-				"minecraft:use_animation": "speed4"
+				}
 			}
 		},
 		"events": {
