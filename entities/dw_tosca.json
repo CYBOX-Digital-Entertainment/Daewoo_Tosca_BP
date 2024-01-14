@@ -482,9 +482,6 @@
 				"minecraft:movement": {
 					"value": 0.735
 				},
-				"minecraft:skin_id": {
-					"value": 24
-				}
 			},
 			"speed4": {
 				"minecraft:mark_variant":{
