@@ -2,16 +2,16 @@
 	"format_version": "1.18.10",
 	"minecraft:item": {
 		"description": {
-			"identifier": "akeyddon:dw_tosca_key",
-			"category": "nature"
+			"identifier": "cybox:cybox_s",
+			"category": "equipment"
 		},
 		"components": {
 			"minecraft:icon": {
-				"texture": "dw_tosca_key"
+				"texture": "cybox_s"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:display_name": {
-				"value": "dw_tosca_key.display_name"
+				"value": "cybox_s.display_name"
 			},
 			"minecraft:render_offsets": {
 				"main_hand": {

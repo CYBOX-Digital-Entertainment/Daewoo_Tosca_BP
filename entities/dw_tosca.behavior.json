@@ -198,11 +198,6 @@
 					}
 				]
 			},
-			"minecraft:inventory": {
-				"inventory_size": 16,
-				"container_type": "horse",
-				"restrict_to_owner": true
-			},
 			"minecraft:movement": {
 				"value": 0.25
 			},
@@ -221,7 +216,7 @@
 			"minecraft:jump.static": {},
 			"minecraft:collision_box": {
 				"width": 1,
-				"height": 1
+				"height": 2
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
@@ -234,8 +229,7 @@
 				"seat_count": 4,
 				"crouching_skip_interact": true,
 				"family_types": [
-					"player",
-					"zombie"
+					"player"
 				],
 				"interact_text": "Ride",
 				"seats": [		
@@ -271,17 +265,45 @@
 				"rider_can_interact": true
 			},
 			"minecraft:loot": {
-				"table": "loot_tables/kallista_black.json"
+				"table": "loot_tables/dw_tosca.loot_table.json"
 			},
 			"minecraft:healable": {
 				"items": [
 					{
+						"item": "iron_nugget",
+						"heal_amount": 3
+					},
+					{
+						"item": "gold_nugget",
+						"heal_amount": 5
+					},
+					{
 						"item": "iron_ingot",
-						"heal_amount": 20
+						"heal_amount": 10
+					},
+					{
+						"item": "gold_ingot",
+						"heal_amount": 15
+					},
+					{
+						"item": "copper_ingot",
+						"heal_amount": 15
+					},
+					{
+						"item": "netherite_ingot",
+						"heal_amount": 40
 					},
 					{
 						"item": "diamond",
-						"heal_amount": 50
+						"heal_amount": 40
+					},
+					{
+						"item": "Emerald",
+						"heal_amount": 200
+					},
+					{
+						"item": "netherite_ingot",
+						"heal_amount": 400
 					}
 				]
 			},

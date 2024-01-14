@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "cybox:dw_tosca_core"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#LG",
+            "BI "
+        ],
+        "key": {
+            "#": {
+                "item": "cybox:cybox_t"
+            },
+            "L": {
+                "item": "cybox:cybox_o"
+            },
+            "G": {
+                "item": "cybox:cybox_s"
+            },
+            "B": {
+                "item": "cybox:cybox_c"
+            },
+            "I": {
+                "item": "cybox:cybox_a"
+            }
+        },
+        "result": {
+            "item": "cybox:dw_tosca_core",
+            "count": 1
+        }
+    }
+}

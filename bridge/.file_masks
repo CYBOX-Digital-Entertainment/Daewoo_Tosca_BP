@@ -1,0 +1,35 @@
+{
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"6a95835c_0df5_4b66_bb99_3d765178ffbd": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"dcc05826_8772_420d_b93b_299aa1ff04d6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/dw_tosca_core.item.json": {
+		"data": {}
+	},
+	"BP/items/dw_tosca_core.json": {
+		"data": {}
+	}
+}

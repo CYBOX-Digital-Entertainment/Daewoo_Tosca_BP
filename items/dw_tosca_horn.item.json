@@ -1,18 +1,30 @@
 {
-    "format_version": "1.16.100",
-    "minecraft:item": {
-        "description": {
-            "identifier": "addon:dw_tosca_horn",
-            "category": "nature"
-        },
-        "components": {
-            "minecraft:icon": {
-                "texture": "dw_tosca_horn"
-            },
-            "minecraft:display_name":{
-                "value": "horn"
-            },
-			"minecraft:max_stack_size": 1
-        }
-    }
+	"format_version": "1.18.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "addon:dw_tosca_horn",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "dw_tosca_horn"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:display_name": {
+				"value": "dw_tosca_horn.display_name"
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"third_person": {
+						"scale": [
+							0.025,
+							0.025,
+							0.025
+						]
+					}
+				}
+			}
+		},
+		"events": {}
+	}
 }

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "cybox:cybox_o"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " # ",
+            "# #",
+            " # "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:nether_star"
+            }
+        },
+        "result": {
+            "item": "cybox:cybox_o",
+            "count": 1
+        }
+    }
+}
