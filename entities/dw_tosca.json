@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.20.50",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "cybox:dw_tosca",
@@ -35,6 +35,163 @@
 			}
 		},
 		"components": {
+			"minecraft:interact": {
+				"interactions": [
+				  {
+					"on_interact": {
+					  "filters": {
+						  "all_of": [
+							{
+							  "any_of": [
+								{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "cybox:tosca_paint_ddg"}
+							  ]
+							},
+							{ "test" :  "is_family", "subject" : "other", "value" :  "player"},
+							{ "test" :  "has_ability","subject" : "other", "value" :  "instabuild"}
+						  ]
+					  },
+					  "event": "color_tosca_ddg"
+					},
+					"use_item": true
+				  },
+				  {
+					"on_interact": {
+					  "filters": {
+						  "all_of": [
+							{
+							  "any_of": [
+								{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "cybox:tosca_paint_gb"}
+							  ]
+							},
+							{ "test" :  "is_family", "subject" : "other", "value" :  "player"},
+							{ "test" :  "has_ability","subject" : "other", "value" :  "instabuild"}
+						  ]
+					  },
+					  "event": "color_tosca_gb"
+					},
+					"use_item": true
+				  },
+				  {
+					"on_interact": {
+					  "filters": {
+						  "all_of": [
+							{
+							  "any_of": [
+								{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "cybox:tosca_paint_gw"}
+							  ]
+							},
+							{ "test" :  "is_family", "subject" : "other", "value" :  "player"},
+							{ "test" :  "has_ability","subject" : "other", "value" :  "instabuild"}
+						  ]
+					  },
+					  "event": "color_tosca_gw"
+					},
+					"use_item": true
+				  },
+				  {
+					"on_interact": {
+					  "filters": {
+						  "all_of": [
+							{
+							  "any_of": [
+								{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "cybox:tosca_paint_kr"}
+							  ]
+							},
+							{ "test" :  "is_family", "subject" : "other", "value" :  "player"},
+							{ "test" :  "has_ability","subject" : "other", "value" :  "instabuild"}
+						  ]
+					  },
+					  "event": "color_tosca_kr"
+					},
+					"use_item": true
+				  },
+				  {
+					"on_interact": {
+					  "filters": {
+						  "all_of": [
+							{
+							  "any_of": [
+								{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "cybox:tosca_paint_og"}
+							  ]
+							},
+							{ "test" :  "is_family", "subject" : "other", "value" :  "player"},
+							{ "test" :  "has_ability","subject" : "other", "value" :  "instabuild"}
+						  ]
+					  },
+					  "event": "color_tosca_og"
+					},
+					"use_item": true
+				  },
+				  {
+					"on_interact": {
+					  "filters": {
+						  "all_of": [
+							{
+							  "any_of": [
+								{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "cybox:tosca_paint_pb"}
+							  ]
+							},
+							{ "test" :  "is_family", "subject" : "other", "value" :  "player"},
+							{ "test" :  "has_ability","subject" : "other", "value" :  "instabuild"}
+						  ]
+					  },
+					  "event": "color_tosca_pb"
+					},
+					"use_item": true
+				  },
+				  {
+					"on_interact": {
+					  "filters": {
+						  "all_of": [
+							{
+							  "any_of": [
+								{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "cybox:tosca_paint_ps"}
+							  ]
+							},
+							{ "test" :  "is_family", "subject" : "other", "value" :  "player"},
+							{ "test" :  "has_ability","subject" : "other", "value" :  "instabuild"}
+						  ]
+					  },
+					  "event": "color_tosca_ps"
+					},
+					"use_item": true
+				  },
+				  {
+					"on_interact": {
+					  "filters": {
+						  "all_of": [
+							{
+							  "any_of": [
+								{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "cybox:tosca_paint_sdg"}
+							  ]
+							},
+							{ "test" :  "is_family", "subject" : "other", "value" :  "player"},
+							{ "test" :  "has_ability","subject" : "other", "value" :  "instabuild"}
+						  ]
+					  },
+					  "event": "color_tosca_sdg"
+					},
+					"use_item": true
+				  },
+				  {
+					"on_interact": {
+					  "filters": {
+						  "all_of": [
+							{
+							  "any_of": [
+								{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "cybox:tosca_paint_wp"}
+							  ]
+							},
+							{ "test" :  "is_family", "subject" : "other", "value" :  "player"},
+							{ "test" :  "has_ability","subject" : "other", "value" :  "instabuild"}
+						  ]
+					  },
+					  "event": "color_tosca_wp"
+					},
+					"use_item": true
+				  }
+				]
+			},
 			"minecraft:input_ground_controlled": {},
 			"minecraft:type_family": {
 				"family": [
@@ -157,7 +314,55 @@
 			"color_tosca_ddg": {
 				"minecraft:variant": 
 				{
-					"value": 0
+					"value": 1
+				}
+			},
+			"color_tosca_gb": {
+				"minecraft:variant": 
+				{
+					"value": 2
+				}
+			},
+			"color_tosca_gw": {
+				"minecraft:variant": 
+				{
+					"value": 3
+				}
+			},
+			"color_tosca_kr": {
+				"minecraft:variant": 
+				{
+					"value": 4
+				}
+			},
+			"color_tosca_og": {
+				"minecraft:variant": 
+				{
+					"value": 5
+				}
+			},
+			"color_tosca_pb": {
+				"minecraft:variant": 
+				{
+					"value": 6
+				}
+			},
+			"color_tosca_ps": {
+				"minecraft:variant": 
+				{
+					"value": 7
+				}
+			},
+			"color_tosca_sdg": {
+				"minecraft:variant": 
+				{
+					"value": 8
+				}
+			},
+			"color_tosca_wp": {
+				"minecraft:variant": 
+				{
+					"value": 9
 				}
 			},
 			"back_mirror_open": {
@@ -252,6 +457,69 @@
 			}
 		},
 		"events": {
+			"color_tosca_ddg": {
+				"add": {
+				  "component_groups": [
+					"color_tosca_ddg"
+				  ]
+				}
+			},
+			"color_tosca_gb": {
+				"add": {
+				  "component_groups": [
+					"color_tosca_gb"
+				  ]
+				}
+			},
+			"color_tosca_gw": {
+				"add": {
+				  "component_groups": [
+					"color_tosca_gw"
+				  ]
+				}
+			},
+			"color_tosca_kr": {
+				"add": {
+				  "component_groups": [
+					"color_tosca_kr"
+				  ]
+				}
+			},
+			"color_tosca_og": {
+				"add": {
+				  "component_groups": [
+					"color_tosca_og"
+				  ]
+				}
+			},
+			"color_tosca_pb": {
+				"add": {
+				  "component_groups": [
+					"color_tosca_pb"
+				  ]
+				}
+			},
+			"color_tosca_ps": {
+				"add": {
+				  "component_groups": [
+					"color_tosca_ps"
+				  ]
+				}
+			},
+			"color_tosca_sdg": {
+				"add": {
+				  "component_groups": [
+					"color_tosca_sdg"
+				  ]
+				}
+			},
+			"color_tosca_wp": {
+				"add": {
+				  "component_groups": [
+					"color_tosca_wp"
+				  ]
+				}
+			},
 			"back_mirror_open": {
 				"sequence": [
 					{

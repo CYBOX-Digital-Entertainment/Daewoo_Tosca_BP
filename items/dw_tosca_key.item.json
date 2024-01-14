@@ -11,7 +11,8 @@
             },
             "minecraft:display_name": {
                 "value": "key"
-            }
+            },
+			"minecraft:max_stack_size": 1
         }
     }
 }
