@@ -2,7 +2,7 @@
 	"format_version": "1.18.10",
 	"minecraft:item": {
 		"description": {
-			"identifier": "akeyddon:dw_tosca_key",
+			"identifier": "key:dw_tosca_key",
 			"category": "nature"
 		},
 		"components": {
