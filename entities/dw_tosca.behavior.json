@@ -229,8 +229,9 @@
 				"seat_count": 4,
 				"crouching_skip_interact": true,
 				"family_types": [
-					"player"
+					"player","rider"
 				],
+				"pull_in_entities": true,
 				"interact_text": "Ride",
 				"seats": [		
 					{
