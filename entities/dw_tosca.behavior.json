@@ -170,6 +170,23 @@
 					  "event": "color_tosca_wp"
 					},
 					"use_item": true
+				  },
+				  {
+					"on_interact": {
+					  "filters": {
+						  "all_of": [
+							{
+							  "any_of": [
+								{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "cybox:tosca_police_kit"}
+							  ]
+							},
+							{ "test" :  "is_family", "subject" : "other", "value" :  "player"},
+							{ "test" :  "has_ability","subject" : "other", "value" :  "instabuild"}
+						  ]
+					  },
+					  "event": "kit_tosca_police"
+					},
+					"use_item": true
 				  }
 				]
 			},
@@ -315,6 +332,12 @@
 			"minecraft:conditional_bandwidth_optimization": {}
 		},
 		"component_groups": {
+			"color_tosca_undyed": {
+				"minecraft:variant": 
+				{
+					"value": 0
+				}
+			},
 			"color_tosca_ddg": {
 				"minecraft:variant": 
 				{
@@ -367,6 +390,12 @@
 				"minecraft:variant": 
 				{
 					"value": 9
+				}
+			},
+			"kit_tosca_police": {
+				"minecraft:variant": 
+				{
+					"value": 10
 				}
 			},
 			"tosca_normal": {
@@ -576,6 +605,13 @@
 				"add": {
 				  "component_groups": [
 					"color_tosca_wp"
+				  ]
+				}
+			},
+			"kit_tosca_police": {
+				"add": {
+				  "component_groups": [
+					"kit_tosca_police"
 				  ]
 				}
 			},

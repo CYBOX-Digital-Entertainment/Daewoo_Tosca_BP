@@ -1,9 +1,9 @@
 {
-	"format_version": "1.18.10",
+	"format_version": "1.20.0",
 	"minecraft:item": {
 		"description": {
 			"identifier": "addon:dw_tosca_horn",
-			"category": "nature"
+			"category": "equipment"
 		},
 		"components": {
 			"minecraft:icon": {
