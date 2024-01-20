@@ -398,7 +398,7 @@
 					"value": 10
 				}
 			},
-			"tosca_normal": {
+			"tosca_stop": {
 				"minecraft:skin_id": {
 					"value": 0
 				}
@@ -612,6 +612,13 @@
 				"add": {
 				  "component_groups": [
 					"kit_tosca_police"
+				  ]
+				}
+			},
+			"tosca_normal": {
+				"add": {
+				  "component_groups": [
+					"tosca_normal"
 				  ]
 				}
 			},
