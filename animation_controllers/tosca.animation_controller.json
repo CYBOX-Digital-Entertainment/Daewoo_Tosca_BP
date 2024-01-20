@@ -67,21 +67,6 @@
 						},
 						{
 							"key": "q.skin_id == 20"
-						},
-						{
-							"speed0": "q.skin_id == 21"
-						},
-						{
-							"speed1": "q.skin_id == 22"
-						},
-						{
-							"speed2": "q.skin_id == 23"
-						},
-						{
-							"speed3": "q.skin_id == 24"
-						},
-						{
-							"speed4": "q.skin_id == 25"
 						}
 					]
 				},
@@ -92,7 +77,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.normal"
 					]
 				},
 				"back_mirror_open": {
@@ -102,7 +86,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.back_mirror_open"
 					]
 				},
 				"back_mirror_close": {
@@ -112,7 +95,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.back_mirror_close"
 					]
 				},
 				"light_on": {
@@ -122,7 +104,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.light_on"
 					]
 				},
 				"light_off": {
@@ -132,7 +113,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.light_off"
 					]
 				},
 				"left_signal": {
@@ -142,7 +122,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.left_signal"
 					]
 				},
 				"right_signal": {
@@ -152,7 +131,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.right_signal"
 					]
 				},
 				"right_front_door_open": {
@@ -162,7 +140,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.right_front_door_open"
 					]
 				},
 				"right_front_door_close": {
@@ -172,7 +149,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.right_front_door_close"
 					]
 				},
 				"roll_up": {
@@ -182,7 +158,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.main_windows_open"
 					]
 				},
 				"roll_down": {
@@ -192,7 +167,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.main_windows_close"
 					]
 				},
 				"right_second_door_open": {
@@ -202,7 +176,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.right_second_door_open"
 					]
 				},
 				"right_second_door_close": {
@@ -212,7 +185,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.right_second_door_close"
 					]
 				},
 				"left_front_door_open": {
@@ -222,7 +194,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.left_front_door_open"
 					]
 				},
 				"left_front_door_close": {
@@ -232,7 +203,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.left_front_door_close"
 					]
 				},
 				"left_second_door_open": {
@@ -242,7 +212,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.left_second_door_open"
 					]
 				},
 				"left_second_door_close": {
@@ -252,7 +221,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.left_second_door_close"
 					]
 				},
 				"bonnet_open": {
@@ -262,7 +230,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.bonnet_open"
 					]
 				},
 				"bonnet_close": {
@@ -272,7 +239,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.bonnet_close"
 					]
 				},
 				"pedal": {
@@ -282,7 +248,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.pedal"
 					]
 				},
 				"key": {
@@ -292,57 +257,6 @@
 						}
 					],
 					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.key"
-					]
-				},
-				"speed0": {
-					"transitions": [
-						{
-							"default": "q.skin_id != 21"
-						}
-					],
-					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.speed0"
-					]
-				},
-				"speed1": {
-					"transitions": [
-						{
-							"default": "q.skin_id != 22"
-						}
-					],
-					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.speed1"
-					]
-				},
-				"speed2": {
-					"transitions": [
-						{
-							"default": "q.skin_id != 23"
-						}
-					],
-					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.speed2"
-					]
-				},
-				"speed3": {
-					"transitions": [
-						{
-							"default": "q.skin_id != 24"
-						}
-					],
-					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.speed3"
-					]
-				},
-				"speed4": {
-					"transitions": [
-						{
-							"default": "q.skin_id != 25"
-						}
-					],
-					"on_entry": [
-						"/playanimation @e[type=cybox:dw_tosca] animation.tosca.speed4"
 					]
 				}
 			}
