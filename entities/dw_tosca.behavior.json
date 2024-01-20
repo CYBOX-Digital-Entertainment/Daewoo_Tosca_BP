@@ -503,6 +503,16 @@
 					"value": 20
 				}
 			},
+			"roll_up2": {
+				"minecraft:skin_id": {
+					"value": 21
+				}
+			},
+			"roll_down2": {
+				"minecraft:skin_id": {
+					"value": 22
+				}
+			},
 			"speed0": {
 				"minecraft:mark_variant":{
 					"value": 0
@@ -789,6 +799,38 @@
 						"remove": {
 							"component_groups": [
 								"roll_up"
+							]
+						}
+					}
+				]
+			},
+			"roll_up2": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"roll_up2"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"roll_down2"
+							]
+						}
+					}
+				]
+			},
+			"roll_down2": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"roll_down2"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"roll_up2"
 							]
 						}
 					}
