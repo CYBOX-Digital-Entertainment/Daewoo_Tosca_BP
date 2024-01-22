@@ -187,7 +187,19 @@
 					  "event": "kit_tosca_police"
 					},
 					"use_item": true
-				  }
+				  },
+				  {
+						"interact_text": "UI OPEN",
+						"on_interact": {
+							"filters": {
+								"test": "is_riding",
+								"subject": "other",
+								"value": true
+							},
+							"event": "car_ui"
+						},
+						"play_sounds": "sonic_charge"
+					}
 				]
 			},
 			"minecraft:input_ground_controlled": {},
@@ -557,9 +569,19 @@
 				"minecraft:movement": {
 					"value": 1
 				}
+			},
+			"car_ui": {
+				}
 			}
 		},
 		"events": {
+			"car_ui": {
+				"add": {
+				  "component_groups": [
+					"car_ui"
+				  ]
+				}
+			},
 			"color_tosca_ddg": {
 				"add": {
 				  "component_groups": [
