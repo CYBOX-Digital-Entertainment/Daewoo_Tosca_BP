@@ -571,7 +571,14 @@
 				}
 			},
 			"car_ui": {
+				"minecraft:type_family": {
+					"family": [
+						"cybox",
+						"car",
+						"car_ui"
+					]
 				}
+			}
 			}
 		},
 		"events": {
@@ -1139,4 +1146,3 @@
 			}
 		}
 	}
-}
