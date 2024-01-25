@@ -780,11 +780,6 @@
 							"component_groups": [
 								"right_front_door_open"
 							]
-						},
-						"remove": {
-							"component_groups": [
-								"right_front_door_close"
-							]
 						}
 					}
 				]
@@ -795,11 +790,6 @@
 						"add": {
 							"component_groups": [
 								"right_front_door_close"
-							]
-						},
-						"remove": {
-							"component_groups": [
-								"right_front_door_open"
 							]
 						}
 					}
