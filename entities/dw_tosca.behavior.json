@@ -337,188 +337,188 @@
 		},
 		"component_groups": {
 			"color_tosca_undyed": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 0
 				}
 			},
 			"color_tosca_ddg": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 1
 				}
 			},
 			"color_tosca_gb": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 2
 				}
 			},
 			"color_tosca_gw": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 3
 				}
 			},
 			"color_tosca_kr": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 4
 				}
 			},
 			"color_tosca_og": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 5
 				}
 			},
 			"color_tosca_pb": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 6
 				}
 			},
 			"color_tosca_ps": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 7
 				}
 			},
 			"color_tosca_sdg": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 8
 				}
 			},
 			"color_tosca_wp": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 9
 				}
 			},
 			"kit_tosca_police": {
-				"minecraft:variant": 
+				"minecraft:skin_id": 
 				{
 					"value": 10
 				}
 			},
 			"tosca_stop": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 0
 				}
 			},
 			"back_mirror_open": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 1
 				}
 			},
 			"back_mirror_close": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 2
 				}
 			},
 			"light_on": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 3
 				}
 			},
 			"light_off": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 4
 				}
 			},
 			"left_signal": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 5
 				}
 			},
 			"right_signal": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 6
 				}
 			},
 			"right_front_door_open": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 7
 				}
 			},
 			"right_front_door_close": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 8
 				}
 			},
 			"roll_up": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 9
 				}
 			},
 			"roll_down": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 10
 				}
 			},
 			"right_second_door_open": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 11
 				}
 			},
 			"right_second_door_close": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 12
 				}
 			},
 			"left_front_door_open": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 13
 				}
 			},
 			"left_front_door_close": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 14
 				}
 			},
 			"left_second_door_open": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 15
 				}
 			},
 			"left_second_door_close": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 16
 				}
 			},
 			"bonnet_open": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 17
 				}
 			},
 			"bonnet_close": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 18
 				}
 			},
 			"pedal": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 19
 				}
 			},
 			"key": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 20
 				}
 			},
 			"roll_up2": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 21
 				}
 			},
 			"roll_down2": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 22
 				}
 			},
 			"siren": {
-				"minecraft:skin_id": {
+				"minecraft:variant": {
 					"value": 23
 				}
 			},
@@ -777,6 +777,12 @@
 						"add": {
 							"component_groups": [
 								"right_front_door_open"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"bonnet_open",
+								"bonnet_close"
 							]
 						}
 					}
