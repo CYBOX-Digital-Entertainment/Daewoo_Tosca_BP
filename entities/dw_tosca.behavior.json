@@ -517,9 +517,29 @@
 					"value": 22
 				}
 			},
-			"siren": {
+			"door_open": {
 				"minecraft:variant": {
 					"value": 23
+				}
+			},
+			"door_close": {
+				"minecraft:variant": {
+					"value": 24
+				}
+			},
+			"door_open2": {
+				"minecraft:variant": {
+					"value": 25
+				}
+			},
+			"door_close2": {
+				"minecraft:variant": {
+					"value": 26
+				}
+			},
+			"siren": {
+				"minecraft:variant": {
+					"value": 27
 				}
 			},
 			"speed0": {
