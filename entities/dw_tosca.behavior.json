@@ -5,15 +5,7 @@
 			"identifier": "cybox:dw_tosca",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false,
-			"scripts": {
-				"animate": [
-					"cybox:dw_tosca"
-				]
-			},
-			"animations": {
-				"cybox:dw_tosca": "controller.animation.tosca"
-			}
+			"is_experimental": false
 		},
 		"components": {
 			"minecraft:interact": {
@@ -570,6 +562,11 @@
 					"value": 1
 				}
 			},
+			"car_stop": {
+				"minecraft:movement": {
+					"value": 0
+				}
+			},
 			"car_ui": {
 				"minecraft:type_family": {
 					"family": [
@@ -675,7 +672,8 @@
 						},
 						"remove": {
 							"component_groups": [
-								"back_mirror_close"
+								"back_mirror_close",
+								"right_front_door_close"
 							]
 						}
 					}
@@ -790,6 +788,11 @@
 						"add": {
 							"component_groups": [
 								"right_front_door_close"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"right_front_door_open"
 							]
 						}
 					}
@@ -1053,6 +1056,26 @@
 					}
 				]
 			},
+			"car_stop": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"car_stop"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"speed0",
+								"speed1",
+								"speed2",
+								"speed3",
+								"speed4"
+							]
+						}
+					}
+				]
+			},
 			"speed1": {
 				"sequence": [
 					{
@@ -1063,7 +1086,8 @@
 						},
 						"remove": {
 							"component_groups": [
-								"speed0"
+								"speed0",
+								"car_stop"
 							]
 						}
 					}
@@ -1079,7 +1103,8 @@
 						},
 						"remove": {
 							"component_groups": [
-								"speed1"
+								"speed1",
+								"car_stop"
 							]
 						}
 					}
@@ -1095,7 +1120,8 @@
 						},
 						"remove": {
 							"component_groups": [
-								"speed2"
+								"speed2",
+								"car_stop"
 							]
 						}
 					}
@@ -1111,7 +1137,8 @@
 						},
 						"remove": {
 							"component_groups": [
-								"speed3"
+								"speed3",
+								"car_stop"
 							]
 						}
 					}
@@ -1127,7 +1154,8 @@
 						},
 						"remove": {
 							"component_groups": [
-								"speed4"
+								"speed4",
+								"car_stop"
 							]
 						}
 					}
