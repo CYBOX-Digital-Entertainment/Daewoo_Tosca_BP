@@ -1026,7 +1026,7 @@
 			"right_signal_off": {
 				"sequence": [
 					{
-						"addon": {
+						"add": {
 							"component_groups": [
 								"light_on"
 							]
