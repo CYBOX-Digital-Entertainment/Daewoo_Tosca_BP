@@ -583,8 +583,8 @@
 				}
 			},
 			"car_stop": {
-				"minecraft:movement": {
-					"value": 0
+				"minecraft:mark_variant":{
+					"value": 5
 				}
 			},
 			"car_ui": {
