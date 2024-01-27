@@ -680,6 +680,39 @@
 				  "component_groups": [
 					"tosca_normal"
 				  ]
+				},
+				"remove": {
+					"component_groups": [
+						"back_mirror_open",
+						"back_mirror_close",
+						"light_on",
+						"light_off",
+						"left_signal_on",
+						"left_signal_off",
+						"right_signal_on",
+						"right_signal_off",
+						"right_front_door_open",
+						"right_front_door_close",
+						"roll_up",
+						"roll_down",
+						"roll_up2",
+						"roll_down2",
+						"right_second_door_open",
+						"right_second_door_close",
+						"left_front_door_open",
+						"left_front_door_close",
+						"left_second_door_open",
+						"left_second_door_close",
+						"bonnet_open",
+						"bonnet_close",
+						"pedal_on",
+						"pedal_off",
+						"key_on",
+						"key_off",
+						"siren_on",
+						"siren_off",
+						"car_stop"
+					]
 				}
 			},
 			"back_mirror_open": {
@@ -692,8 +725,35 @@
 						},
 						"remove": {
 							"component_groups": [
+								"tosca_normal",
 								"back_mirror_close",
-								"right_front_door_close"
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -709,7 +769,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"back_mirror_open"
+								"tosca_normal",
+								"back_mirror_open",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -725,7 +813,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"light_off"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -741,7 +857,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"light_on"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -754,16 +898,82 @@
 							"component_groups": [
 								"left_signal"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
+							]
 						}
 					}
 				]
 			},
 			"left_signal_off": {
 				"sequence": [
-					{
+					{	
+						"add": {
+							"component_groups": [
+								"light_on"
+							]
+						},
 						"remove": {
 							"component_groups": [
-								"left_signal"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -776,6 +986,39 @@
 							"component_groups": [
 								"right_signal"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
+							]
 						}
 					}
 				]
@@ -783,9 +1026,42 @@
 			"right_signal_off": {
 				"sequence": [
 					{
+						"addon": {
+							"component_groups": [
+								"light_on"
+							]
+						},
 						"remove": {
 							"component_groups": [
-								"right_signal"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -801,8 +1077,35 @@
 						},
 						"remove": {
 							"component_groups": [
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
 								"bonnet_open",
-								"bonnet_close"
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -818,7 +1121,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"right_front_door_open"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -834,7 +1165,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"roll_down"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -850,7 +1209,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"roll_up"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -866,7 +1253,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"roll_down2"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -882,7 +1297,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"roll_up2"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -898,7 +1341,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"right_second_door_close"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -914,7 +1385,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"right_second_door_open"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -930,7 +1429,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"left_front_door_close"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -946,7 +1473,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"left_front_door_open"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -962,7 +1517,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"left_second_door_close"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -978,7 +1561,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"left_second_door_open"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -994,7 +1605,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"bonnet_close"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -1010,7 +1649,35 @@
 						},
 						"remove": {
 							"component_groups": [
-								"bonnet_open"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -1023,6 +1690,39 @@
 							"component_groups": [
 								"pedal"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
+							]
 						}
 					}
 				]
@@ -1030,9 +1730,42 @@
 			"pedal_off": {
 				"sequence": [
 					{
+						"add": {
+							"component_groups": [
+								"light_on"
+							]
+						},
 						"remove": {
 							"component_groups": [
-								"pedal"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -1045,6 +1778,39 @@
 							"component_groups": [
 								"key"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"car_stop"
+							]
 						}
 					}
 				]
@@ -1052,9 +1818,42 @@
 			"key_off": {
 				"sequence": [
 					{
+						"add": {
+							"component_groups": [
+								"light_on"
+							]
+						},
 						"remove": {
 							"component_groups": [
-								"key"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"siren_on",
+								"siren_off",
+								"car_stop"
 							]
 						}
 					}
@@ -1067,6 +1866,39 @@
 							"component_groups": [
 								"siren"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_off",
+								"car_stop"
+							]
 						}
 					}
 				]
@@ -1074,9 +1906,42 @@
 			"siren_off": {
 				"sequence": [
 					{
+						"add": {
+							"component_groups": [
+								"light_on"
+							]
+						},
 						"remove": {
 							"component_groups": [
-								"siren"
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal_on",
+								"left_signal_off",
+								"right_signal_on",
+								"right_signal_off",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren_on",
+								"car_stop"
 							]
 						}
 					}
