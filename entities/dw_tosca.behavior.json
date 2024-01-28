@@ -5,7 +5,15 @@
 			"identifier": "cybox:dw_tosca",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"police"
+				]
+			},
+			"animations": {
+				"police": "controller.animation.police"
+			}
 		},
 		"components": {
 			"minecraft:interact": {
@@ -712,8 +720,7 @@
 						"pedal_off",
 						"key_on",
 						"key_off",
-						"siren_on",
-						"siren_off",
+						"siren",
 						"back_mirror_close2",
 						"car_stop"
 					]
@@ -1875,7 +1882,6 @@
 								"pedal_off",
 								"key_on",
 								"key_off",
-								"siren_off",
 								"back_mirror_close2",
 								"car_stop"
 							]
@@ -1918,7 +1924,7 @@
 								"pedal_off",
 								"key_on",
 								"key_off",
-								"siren_on",
+								"siren",
 								"back_mirror_close2",
 								"car_stop"
 							]
@@ -1961,7 +1967,7 @@
 								"pedal_off",
 								"key_on",
 								"key_off",
-								"siren_on",
+								"siren",
 								"car_stop"
 							]
 						}

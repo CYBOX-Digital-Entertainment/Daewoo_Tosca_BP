@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.police": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"police": "query.skin_id == 10"
+						}
+					],
+					"on_entry": [
+						"/tag @s remove police"
+					]
+				},
+				"police": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 10"
+						}
+					],
+					"on_entry": [
+						"/tag @s add police"
+					]
+				}
+			}
+		}
+	}
+}
