@@ -727,7 +727,9 @@
 						"key_off",
 						"siren",
 						"back_mirror_close2",
-						"car_stop"
+						"car_stop",
+						"door_open",
+						"door_close"
 					]
 				}
 			},
@@ -768,7 +770,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -811,7 +815,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -854,7 +860,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -897,7 +905,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -940,7 +950,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -984,7 +996,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1027,7 +1041,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1072,7 +1088,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1115,7 +1133,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1158,7 +1178,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1201,7 +1223,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1244,7 +1268,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1287,7 +1313,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1330,7 +1358,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1373,7 +1403,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1416,7 +1448,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1459,7 +1493,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1502,7 +1538,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1545,7 +1583,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1588,7 +1628,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1631,7 +1673,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1674,7 +1718,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1717,7 +1763,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1760,7 +1808,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1803,7 +1853,9 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1843,6 +1895,96 @@
 								"pedal_on",
 								"pedal_off",
 								"key_on",
+								"key_off",
+								"siren_on",
+								"siren_off",
+								"back_mirror_close2",
+								"car_stop",
+								"door_open",
+								"door_close"
+							]
+						}
+					}
+				]
+			},
+			"door_open": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"door_open"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal",
+								"right_signal",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"siren_on",
+								"siren_off",
+								"back_mirror_close2",
+								"car_stop"
+							]
+						}
+					}
+				]
+			},
+			"door_close": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"door_close"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"tosca_normal",
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal",
+								"right_signal",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
@@ -1888,7 +2030,9 @@
 								"key_on",
 								"key_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1931,7 +2075,9 @@
 								"key_off",
 								"siren",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
@@ -1973,7 +2119,9 @@
 								"key_on",
 								"key_off",
 								"siren",
-								"car_stop"
+								"car_stop",
+								"door_open",
+								"door_close"
 							]
 						}
 					}
