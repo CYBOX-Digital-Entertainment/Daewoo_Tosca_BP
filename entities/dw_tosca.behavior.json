@@ -595,11 +595,6 @@
 					"value": 1
 				}
 			},
-			"car_stop": {
-				"minecraft:movement":{
-					"value": 0
-				}
-			},
 			"freight": {
 				"minecraft:mark_variant":{
 					"value": 5
