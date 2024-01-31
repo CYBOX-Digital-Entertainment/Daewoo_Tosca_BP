@@ -498,6 +498,9 @@
 			"bonnet_open": {
 				"minecraft:variant": {
 					"value": 17
+				},
+				"minecraft:mark_variant":{
+					"value": 5
 				}
 			},
 			"bonnet_close": {
@@ -593,11 +596,6 @@
 				},
 				"minecraft:movement": {
 					"value": 1
-				}
-			},
-			"freight": {
-				"minecraft:mark_variant":{
-					"value": 5
 				}
 			},
 			"car_ui": {
