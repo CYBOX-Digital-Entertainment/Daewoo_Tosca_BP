@@ -281,14 +281,14 @@
 						"position": [
 							0.525,
 							0.45,
-							-2.4
+							-3.1
 						]
 					},
 					{
 						"position": [
 							-0.525,
 							0.45,
-							-2.4
+							-3.1
 						]
 					}				
 				],
@@ -598,6 +598,11 @@
 					"value": 1
 				}
 			},
+			"freight": {
+				"minecraft:mark_variant":{
+					"value": 5
+				}
+			},
 			"car_ui": {
 				"minecraft:type_family": {
 					"family": [
@@ -687,44 +692,49 @@
 				}
 			},
 			"tosca_normal": {
-				"add": {
-				  "component_groups": [
-					"tosca_normal"
-				  ]
-				},
-				"remove": {
-					"component_groups": [
-						"back_mirror_open",
-						"back_mirror_close",
-						"light_on",
-						"light_off",
-						"left_signal",
-						"right_signal",
-						"right_front_door_open",
-						"right_front_door_close",
-						"roll_up",
-						"roll_down",
-						"roll_up2",
-						"roll_down2",
-						"right_second_door_open",
-						"right_second_door_close",
-						"left_front_door_open",
-						"left_front_door_close",
-						"left_second_door_open",
-						"left_second_door_close",
-						"bonnet_open",
-						"bonnet_close",
-						"pedal_on",
-						"pedal_off",
-						"key_on",
-						"key_off",
-						"siren",
-						"back_mirror_close2",
-						"car_stop",
-						"door_open",
-						"door_close"
-					]
-				}
+				"sequence": [
+					{
+						"add": {
+						  "component_groups": [
+								"tosca_normal"
+						  ]
+						},
+						"remove": {
+							"component_groups": [
+								"back_mirror_open",
+								"back_mirror_close",
+								"light_on",
+								"light_off",
+								"left_signal",
+								"right_signal",
+								"right_front_door_open",
+								"right_front_door_close",
+								"roll_up",
+								"roll_down",
+								"roll_up2",
+								"roll_down2",
+								"right_second_door_open",
+								"right_second_door_close",
+								"left_front_door_open",
+								"left_front_door_close",
+								"left_second_door_open",
+								"left_second_door_close",
+								"bonnet_open",
+								"bonnet_close",
+								"pedal_on",
+								"pedal_off",
+								"key_on",
+								"key_off",
+								"siren",
+								"back_mirror_close2",
+								"car_stop",
+								"door_open",
+								"door_close",
+								"freight"
+							]
+						}
+					}
+				]
 			},
 			"back_mirror_open": {
 				"sequence": [
@@ -765,7 +775,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -810,7 +821,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -855,7 +867,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -900,7 +913,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -945,7 +959,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -991,7 +1006,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1036,7 +1052,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1083,7 +1100,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1128,7 +1146,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1173,7 +1192,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1218,7 +1238,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1263,7 +1284,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1308,7 +1330,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1353,7 +1376,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1398,7 +1422,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1443,7 +1468,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1488,7 +1514,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1533,7 +1560,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1578,7 +1606,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1623,7 +1652,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1758,7 +1788,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1803,7 +1834,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1848,7 +1880,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1894,7 +1927,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -1937,7 +1971,8 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"freight"
 							]
 						}
 					}
@@ -1981,7 +2016,8 @@
 								"siren_on",
 								"siren_off",
 								"back_mirror_close2",
-								"car_stop"
+								"car_stop",
+								"freight"
 							]
 						}
 					}
@@ -2025,7 +2061,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -2070,7 +2107,8 @@
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -2114,7 +2152,8 @@
 								"siren",
 								"car_stop",
 								"door_open",
-								"door_close"
+								"door_close",
+								"freight"
 							]
 						}
 					}
@@ -2220,6 +2259,17 @@
 							"component_groups": [
 								"speed4",
 								"car_stop"
+							]
+						}
+					}
+				]
+			},
+			"freight": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"freight"
 							]
 						}
 					}
