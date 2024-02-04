@@ -15,21 +15,7 @@
 			},
 			"minecraft:display_name":{
                 "value": "tosca_police_kit.display_name"
-            },
-			"minecraft:on_use": {
-                "on_use": {
-                    "event": "delete"
-                }
             }
-		},
-		"events": {
-            "delete": {
-				"run_command": {
-                    "command": [
-                        "clear @s cybox:tosca_police_kit 0 1"
-                    ]
-                }
-            }
-        }
+		}
 	}
 }
