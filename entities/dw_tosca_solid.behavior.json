@@ -1,0 +1,43 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "cybox:dw_tosca_solid",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:boat"
+		},
+		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false,
+						"cause": "all"
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:type_family": {
+				"family": [
+					"cybox",
+					"solid"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 2.1,
+				"height": 2.01
+			}
+		},
+		"component_groups": {
+		},
+		"events": {
+		}
+	}
+}

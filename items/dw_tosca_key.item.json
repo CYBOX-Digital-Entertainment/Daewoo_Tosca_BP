@@ -3,7 +3,7 @@
 	"minecraft:item": {
 		"description": {
 			"identifier": "key:dw_tosca_key",
-			"category": "nature"
+			"category": "equipment"
 		},
 		"components": {
 			"minecraft:icon": {
@@ -12,17 +12,6 @@
 			"minecraft:max_stack_size": 1,
 			"minecraft:display_name": {
 				"value": "dw_tosca_key.display_name"
-			},
-			"minecraft:render_offsets": {
-				"main_hand": {
-					"third_person": {
-						"scale": [
-							0.025,
-							0.025,
-							0.025
-						]
-					}
-				}
 			}
 		},
 		"events": {}

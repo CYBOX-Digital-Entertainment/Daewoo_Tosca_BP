@@ -365,8 +365,7 @@
 				}
 			},
 			"siren": {
-				"minecraft:variant": {
-					"value": 28
+				"minecraft:is_chested":{
 				}
 			},
 			"speed0": {
