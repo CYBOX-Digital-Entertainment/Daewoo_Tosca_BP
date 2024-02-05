@@ -32,7 +32,30 @@
 			},
 			"minecraft:collision_box": {
 				"width": 2.1,
-				"height": 2.01
+				"height": 1.358
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"crouching_skip_interact": true,
+				"family_types": [
+					"cybox_dummy"
+				],
+				"pull_in_entities": true,
+				"interact_text": "Ride",
+				"seats": [		
+					{
+						"position": [
+							0,
+							0,
+							0
+						]
+					}			
+				],
+				"rider_can_interact": true
 			}
 		},
 		"component_groups": {
