@@ -23,6 +23,9 @@
 					"car"
 				]
 			},
+			"minecraft:navigation.swim":{
+				"can_swim": false
+			},
 			"minecraft:breathable": {
 				"total_supply": 15,
 				"suffocate_time": 0
@@ -232,6 +235,9 @@
 			"back_mirror_open": {
 				"minecraft:variant": {
 					"value": 1
+				},
+				"minecraft:mark_variant":{
+					"value": 0
 				}
 			},
 			"back_mirror_close": {
@@ -369,53 +375,74 @@
 				}
 			},
 			"speed0": {
-				"minecraft:mark_variant":{
-					"value": 0
+				"minecraft:is_charged":{
 				},
 				"minecraft:movement": {
 					"value": 0.25
 				}
 			},
 			"speed1": {
-				"minecraft:mark_variant":{
-					"value": 1
+				"minecraft:is_saddled":{
 				},
 				"minecraft:movement": {
 					"value": 0.375
 				}
 			},
 			"speed2": {
-				"minecraft:mark_variant":{
-					"value": 2
+				"minecraft:is_baby":{
 				},
 				"minecraft:movement": {
 					"value": 0.5
 				}
 			},
 			"speed3": {
-				"minecraft:mark_variant":{
-					"value": 3
+				"minecraft:is_sheared":{
 				},
 				"minecraft:movement": {
 					"value": 0.735
 				}
 			},
 			"speed4": {
-				"minecraft:mark_variant":{
-					"value": 4
+				"minecraft:navigation.swim":{
+					"can_swim": true
 				},
 				"minecraft:movement": {
 					"value": 1
 				}
 			},
-			"freight_add": {
+			"sound_off": {
 				"minecraft:mark_variant":{
-					"value": 5
+					"value": 0
 				}
 			},
 			"freight_remove": {
 				"minecraft:mark_variant":{
 					"value": 0
+				}
+			},
+			"freight_add": {
+				"minecraft:mark_variant":{
+					"value": 1
+				}
+			},
+			"song_loading": {
+				"minecraft:mark_variant":{
+					"value": 2
+				}
+			},
+			"song_on": {
+				"minecraft:mark_variant":{
+					"value": 3
+				}
+			},
+			"13_loading": {
+				"minecraft:mark_variant":{
+					"value": 4
+				}
+			},
+			"13_on": {
+				"minecraft:mark_variant":{
+					"value": 5
 				}
 			},
 			"car_ui": {
@@ -1984,8 +2011,6 @@
 						},
 						"remove": {
 							"component_groups": [
-								"freight_add",
-								"freight_remove",
 								"speed1",
 								"speed2",
 								"speed3",
@@ -2006,8 +2031,6 @@
 						},
 						"remove": {
 							"component_groups": [
-								"freight_add",
-								"freight_remove",
 								"speed0",
 								"speed2",
 								"speed3",
@@ -2028,8 +2051,6 @@
 						},
 						"remove": {
 							"component_groups": [
-								"freight_add",
-								"freight_remove",
 								"speed1",
 								"speed0",
 								"speed3",
@@ -2050,8 +2071,6 @@
 						},
 						"remove": {
 							"component_groups": [
-								"freight_add",
-								"freight_remove",
 								"speed1",
 								"speed2",
 								"speed0",
@@ -2072,8 +2091,6 @@
 						},
 						"remove": {
 							"component_groups": [
-								"freight_add",
-								"freight_remove",
 								"speed1",
 								"speed2",
 								"speed3",
@@ -2094,8 +2111,6 @@
 						},
 						"remove": {
 							"component_groups": [
-								"freight_add",
-								"freight_remove",
 								"speed1",
 								"speed2",
 								"speed3",
@@ -2106,23 +2121,22 @@
 					}
 				]
 			},
-			"freight_add": {
+			"sound_off": {
 				"sequence": [
 					{
 						"add": {
 							"component_groups": [
-								"freight_add"
+								"sound_off"
 							]
 						},
 						"remove": {
 							"component_groups": [
+								"freight_add",
 								"freight_remove",
-								"speed0",
-								"speed1",
-								"speed2",
-								"speed3",
-								"speed4",
-								"car_stop"
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on"
 							]
 						}
 					}
@@ -2138,13 +2152,117 @@
 						},
 						"remove": {
 							"component_groups": [
+								"sound_off",
 								"freight_add",
-								"speed0",
-								"speed1",
-								"speed2",
-								"speed3",
-								"speed4",
-								"car_stop"
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on"
+							]
+						}
+					}
+				]
+			},
+			"freight_add": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"freight_add"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"sound_off",
+								"freight_remove",
+								"freight_add",
+								"song_on",
+								"13_loading",
+								"13_on"
+							]
+						}
+					}
+				]
+			},
+			"song_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"song_loading"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"sound_off",
+								"freight_add",
+								"freight_remove",
+								"song_on",
+								"13_loading",
+								"13_on"
+							]
+						}
+					}
+				]
+			},
+			"song_on": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"song_on"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"sound_off",
+								"freight_add",
+								"freight_remove",
+								"song_loading",
+								"13_loading",
+								"13_on"
+							]
+						}
+					}
+				]
+			},
+			"13_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"13_loading"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"sound_off",
+								"freight_add",
+								"freight_remove",
+								"song_loading",
+								"song_on",
+								"13_on"
+							]
+						}
+					}
+				]
+			},
+			"13_on": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"13_on"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"sound_off",
+								"freight_add",
+								"freight_remove",
+								"song_loading",
+								"song_on",
+								"13_loading"
 							]
 						}
 					}
