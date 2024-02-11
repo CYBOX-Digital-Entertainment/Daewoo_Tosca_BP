@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.tosca_speed": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"speed0": "1"
+						}
+					]
+				},
+				"speed0": {
+					"transitions": [
+						{
+							"speed1": "query.any_tag('speed1')",
+							"speed2": "query.any_tag('speed2')",
+							"speed3": "query.any_tag('speed3')",
+							"speed4": "query.any_tag('speed4')"
+						}
+					],
+					"on_entry": [
+						"/tag @s add speed0"
+					]
+				}
+			}
+		}
+	}
+}

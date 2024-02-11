@@ -8,11 +8,13 @@
 			"is_experimental": false,
 			"scripts": {
 				"animate": [
-					"police"
+					"police",
+					"speed"
 				]
 			},
 			"animations": {
-				"police": "controller.animation.police"
+				"police": "controller.animation.tosca_police",
+				"speed": "controller.animation.tosca_speed"
 			}
 		},
 		"components": {
@@ -22,9 +24,6 @@
 					"cybox",
 					"car"
 				]
-			},
-			"minecraft:navigation.swim":{
-				"can_swim": false
 			},
 			"minecraft:breathable": {
 				"total_supply": 15,
@@ -375,37 +374,26 @@
 				}
 			},
 			"speed0": {
-				"minecraft:is_charged":{
-				},
 				"minecraft:movement": {
 					"value": 0.25
 				}
 			},
 			"speed1": {
-				"minecraft:is_saddled":{
-				},
 				"minecraft:movement": {
 					"value": 0.375
 				}
 			},
 			"speed2": {
-				"minecraft:is_baby":{
-				},
 				"minecraft:movement": {
 					"value": 0.5
 				}
 			},
 			"speed3": {
-				"minecraft:is_sheared":{
-				},
 				"minecraft:movement": {
 					"value": 0.735
 				}
 			},
 			"speed4": {
-				"minecraft:navigation.swim":{
-					"can_swim": true
-				},
 				"minecraft:movement": {
 					"value": 1
 				}
@@ -567,7 +555,8 @@
 								"pedal_off",
 								"key_on",
 								"key_off",
-								"siren",
+								"siren_on",
+								"siren_off",
 								"back_mirror_close2",
 								"car_stop",
 								"door_open",
@@ -1991,7 +1980,8 @@
 								"pedal_off",
 								"key_on",
 								"key_off",
-								"siren",
+								"siren_on",
+								"siren_off",
 								"car_stop",
 								"door_open",
 								"door_close",

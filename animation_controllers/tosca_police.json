@@ -1,7 +1,7 @@
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.police": {
+		"controller.animation.tosca_police": {
 			"initial_state": "default",
 			"states": {
 				"default": {
