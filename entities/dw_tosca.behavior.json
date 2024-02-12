@@ -53,7 +53,7 @@
 			},
 			"minecraft:pushable": {
 				"is_pushable": false,
-				"is_pushable_by_piston": true
+				"is_pushable_by_piston": false
 			},
 			"minecraft:movement.basic": {},
 			"minecraft:jump.static": {},
@@ -439,7 +439,19 @@
 						"car_ui"
 					]
 				}
-			}
+			},
+			"neutral_on": {
+				"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+				}
+			},
+			"neutral_off": {
+				"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+				}
+			},
 		},
 		"events": {
 			"car_ui": {
@@ -2251,6 +2263,59 @@
 								"song_loading",
 								"song_on",
 								"13_loading"
+							]
+						}
+					}
+				]
+			},
+			"13_on": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"13_on"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"sound_off",
+								"freight_add",
+								"freight_remove",
+								"song_loading",
+								"song_on",
+								"13_loading"
+							]
+						}
+					}
+				]
+			},
+			"neutral_on": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"neutral_on"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"neutral_off"
+							]
+						}
+					}
+				]
+			},
+			"neutral_off": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"neutral_off"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"neutral_on"
 							]
 						}
 					}
