@@ -451,7 +451,7 @@
 				"is_pushable": false,
 				"is_pushable_by_piston": false
 				}
-			},
+			}
 		},
 		"events": {
 			"car_ui": {
@@ -2242,27 +2242,6 @@
 								"song_loading",
 								"song_on",
 								"13_on"
-							]
-						}
-					}
-				]
-			},
-			"13_on": {
-				"sequence": [
-					{
-						"add": {
-							"component_groups": [
-								"13_on"
-							]
-						},
-						"remove": {
-							"component_groups": [
-								"sound_off",
-								"freight_add",
-								"freight_remove",
-								"song_loading",
-								"song_on",
-								"13_loading"
 							]
 						}
 					}
