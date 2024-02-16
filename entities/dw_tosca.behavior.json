@@ -20,6 +20,7 @@
 			"minecraft:type_family": {
 				"family": [
 					"cybox",
+					"tosca",
 					"car"
 				]
 			},
@@ -232,9 +233,6 @@
 			"back_mirror_open": {
 				"minecraft:variant": {
 					"value": 1
-				},
-				"minecraft:mark_variant":{
-					"value": 0
 				}
 			},
 			"back_mirror_close": {
@@ -379,21 +377,31 @@
 			"speed1": {
 				"minecraft:movement": {
 					"value": 0.375
+				},
+				"minecraft:can_climb":{
 				}
 			},
 			"speed2": {
 				"minecraft:movement": {
 					"value": 0.5
+				},
+				"minecraft:is_baby":{
 				}
 			},
 			"speed3": {
 				"minecraft:movement": {
 					"value": 0.735
+				},
+				"minecraft:can_climb":{
+				},
+				"minecraft:is_baby":{
 				}
 			},
 			"speed4": {
 				"minecraft:movement": {
 					"value": 1
+				},
+				"minecraft:is_tamed":{
 				}
 			},
 			"sound_off": {
@@ -435,8 +443,7 @@
 				"minecraft:type_family": {
 					"family": [
 						"cybox",
-						"car",
-						"car_ui"
+						"car"
 					]
 				}
 			},

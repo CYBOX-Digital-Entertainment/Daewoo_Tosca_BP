@@ -9,6 +9,16 @@
 			"runtime_identifier": "minecraft:boat"
 		},
 		"components": {
+			"minecraft:movement": {
+				"value": 3
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:nameable": {
+			  "always_show": false
+			},
 			"minecraft:damage_sensor": {
 				"triggers": [
 					{
@@ -18,11 +28,8 @@
 				]
 			},
 			"minecraft:physics": {
-				"has_gravity": true,
+				"has_gravity": false,
 				"has_collision": true
-			},
-			"minecraft:pushable": {
-				"is_pushable": false
 			},
 			"minecraft:type_family": {
 				"family": [
