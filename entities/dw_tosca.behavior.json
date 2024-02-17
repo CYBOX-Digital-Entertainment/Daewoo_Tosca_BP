@@ -419,24 +419,89 @@
 					"value": 1
 				}
 			},
-			"song_loading": {
+			"13_loading": {
 				"minecraft:mark_variant":{
 					"value": 2
 				}
 			},
-			"song_on": {
+			"cat_loading": {
 				"minecraft:mark_variant":{
 					"value": 3
 				}
 			},
-			"13_loading": {
+			"blocks_loading": {
 				"minecraft:mark_variant":{
 					"value": 4
 				}
 			},
-			"13_on": {
+			"chirp_loading": {
 				"minecraft:mark_variant":{
 					"value": 5
+				}
+			},
+			"far_loading": {
+				"minecraft:mark_variant":{
+					"value": 6
+				}
+			},
+			"mall_loading": {
+				"minecraft:mark_variant":{
+					"value": 7
+				}
+			},
+			"mellohi_loading": {
+				"minecraft:mark_variant":{
+					"value": 8
+				}
+			},
+			"stal_loading": {
+				"minecraft:mark_variant":{
+					"value": 9
+				}
+			},
+			"strad_loading": {
+				"minecraft:mark_variant":{
+					"value": 10
+				}
+			},
+			"ward_loading": {
+				"minecraft:mark_variant":{
+					"value": 11
+				}
+			},
+			"11_loading": {
+				"minecraft:mark_variant":{
+					"value": 12
+				}
+			},
+			"wait_loading": {
+				"minecraft:mark_variant":{
+					"value": 13
+				}
+			},
+			"otherside_loading": {
+				"minecraft:mark_variant":{
+					"value": 14
+				}
+			},
+			"pigstep_loading": {
+				"minecraft:mark_variant":{
+					"value": 15
+				}
+			},
+			"song_on": {
+				"minecraft:mark_variant":{
+					"value": 16
+				}
+			},
+			"13_on": {
+				"minecraft:mark_variant":{
+					"value": 17
+				}
+			},
+			"pigstep_on": {
+				"minecraft:mark_variant":{
+					"value": 18
 				}
 			},
 			"car_ui": {
@@ -2191,22 +2256,166 @@
 					}
 				]
 			},
-			"song_loading": {
+			"13_loading": {
 				"sequence": [
 					{
 						"add": {
 							"component_groups": [
-								"song_loading"
+								"13_loading"
 							]
-						},
-						"remove": {
+						}
+					}
+				]
+			},
+			"cat_loading": {
+				"sequence": [
+					{
+						"add": {
 							"component_groups": [
-								"sound_off",
-								"freight_add",
-								"freight_remove",
-								"song_on",
-								"13_loading",
-								"13_on"
+								"cat_loading"
+							]
+						}
+					}
+				]
+			},
+			"blocks_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"blocks_loading"
+							]
+						}
+					}
+				]
+			},
+			"chirp_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"chirp_loading"
+							]
+						}
+					}
+				]
+			},
+			"far_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"far_loading"
+							]
+						}
+					}
+				]
+			},
+			"mall_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"mall_loading"
+							]
+						}
+					}
+				]
+			},
+			"mellohi_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"mellohi_loading"
+							]
+						}
+					}
+				]
+			},
+			"stal_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"stal_loading"
+							]
+						}
+					}
+				]
+			},
+			"strad_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"strad_loading"
+							]
+						}
+					}
+				]
+			},
+			"ward_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"ward_loading"
+							]
+						}
+					}
+				]
+			},
+			"11_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"11_loading"
+							]
+						}
+					}
+				]
+			},
+			"wait_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"wait_loading"
+							]
+						}
+					}
+				]
+			},
+			"otherside_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"otherside_loading"
+							]
+						}
+					}
+				]
+			},
+			"5_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"5_loading"
+							]
+						}
+					}
+				]
+			},
+			"pigstep_loading": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"pigstep_loading"
 							]
 						}
 					}
@@ -2219,37 +2428,6 @@
 							"component_groups": [
 								"song_on"
 							]
-						},
-						"remove": {
-							"component_groups": [
-								"sound_off",
-								"freight_add",
-								"freight_remove",
-								"song_loading",
-								"13_loading",
-								"13_on"
-							]
-						}
-					}
-				]
-			},
-			"13_loading": {
-				"sequence": [
-					{
-						"add": {
-							"component_groups": [
-								"13_loading"
-							]
-						},
-						"remove": {
-							"component_groups": [
-								"sound_off",
-								"freight_add",
-								"freight_remove",
-								"song_loading",
-								"song_on",
-								"13_on"
-							]
 						}
 					}
 				]
@@ -2261,15 +2439,16 @@
 							"component_groups": [
 								"13_on"
 							]
-						},
-						"remove": {
+						}
+					}
+				]
+			},
+			"pigstep_on": {
+				"sequence": [
+					{
+						"add": {
 							"component_groups": [
-								"sound_off",
-								"freight_add",
-								"freight_remove",
-								"song_loading",
-								"song_on",
-								"13_loading"
+								"pigstep_on"
 							]
 						}
 					}
