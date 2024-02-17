@@ -516,12 +516,22 @@
 				"minecraft:pushable": {
 				"is_pushable": true,
 				"is_pushable_by_piston": true
+				},
+				"minecraft:is_charged":{
 				}
 			},
 			"neutral_off": {
 				"minecraft:pushable": {
 				"is_pushable": false,
 				"is_pushable_by_piston": false
+				}
+			},
+			"at_d": {
+				"minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": false
+				},
+				"minecraft:is_saddled":{
 				}
 			}
 		},
@@ -2464,7 +2474,8 @@
 						},
 						"remove": {
 							"component_groups": [
-								"neutral_off"
+								"neutral_off",
+								"at_d"
 							]
 						}
 					}
@@ -2480,7 +2491,21 @@
 						},
 						"remove": {
 							"component_groups": [
-								"neutral_on"
+								"neutral_on",
+								"at_d"
+							]
+						}
+					}
+				]
+			},
+			"at_d": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"at_d",
+								"neutral_on",
+								"neutral_off"
 							]
 						}
 					}
