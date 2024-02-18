@@ -506,6 +506,11 @@
 					"value": 18
 				}
 			},
+			"car_horn": {
+				"minecraft:ambient_sound_interval": {
+					"event_name": "car_horn"
+				  }
+			},
 			"car_ui": {
 				"minecraft:type_family": {
 					"family": [
@@ -2508,6 +2513,17 @@
 								"at_d",
 								"neutral_on",
 								"neutral_off"
+							]
+						}
+					}
+				]
+			},
+			"car_horn": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"car_horn"
 							]
 						}
 					}
