@@ -8,11 +8,13 @@
 			"is_experimental": false,
 			"scripts": {
 				"animate": [
-					"police"
+					"police",
+					"speed"
 				]
 			},
 			"animations": {
-				"police": "controller.animation.tosca_police"
+				"police": "controller.animation.tosca_police",
+				"speed": "controller.animation.tosca_speed"
 			}
 		},
 		"components": {

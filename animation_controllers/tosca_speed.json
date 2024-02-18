@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.tosca_speed": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"speed0": "query.can_climb == 0 && query.is_baby == 0 && query.is_tamed == 0 && query.is_moving == 1"
+						}
+					],
+					"on_entry": [
+						"/tag @s remove police"
+					]
+				},
+				"speed0": {
+					"transitions": [
+						{
+							"default": "query.can_climb != 0 && query.is_baby != 0 && query.is_tamed != 0 && query.is_moving != 1"
+						}
+					],
+					"on_entry": [
+						"/function tosca_speed"
+					]
+				}
+			}
+		}
+	}
+}
