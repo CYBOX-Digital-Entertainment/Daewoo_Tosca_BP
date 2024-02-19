@@ -798,7 +798,37 @@
 								"car_stop",
 								"door_open",
 								"door_close",
-								"freight_add"
+								"freight_add",
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
 							]
 						}
 					}
@@ -2280,6 +2310,39 @@
 							"component_groups": [
 								"13_loading"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
+							]
 						}
 					}
 				]
@@ -2290,6 +2353,39 @@
 						"add": {
 							"component_groups": [
 								"cat_loading"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
 							]
 						}
 					}
@@ -2302,6 +2398,39 @@
 							"component_groups": [
 								"blocks_loading"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
+							]
 						}
 					}
 				]
@@ -2312,6 +2441,39 @@
 						"add": {
 							"component_groups": [
 								"chirp_loading"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
 							]
 						}
 					}
@@ -2324,6 +2486,39 @@
 							"component_groups": [
 								"far_loading"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
+							]
 						}
 					}
 				]
@@ -2334,6 +2529,39 @@
 						"add": {
 							"component_groups": [
 								"mall_loading"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
 							]
 						}
 					}
@@ -2346,6 +2574,39 @@
 							"component_groups": [
 								"mellohi_loading"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
+							]
 						}
 					}
 				]
@@ -2356,6 +2617,39 @@
 						"add": {
 							"component_groups": [
 								"stal_loading"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
 							]
 						}
 					}
@@ -2368,6 +2662,39 @@
 							"component_groups": [
 								"strad_loading"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
+							]
 						}
 					}
 				]
@@ -2378,6 +2705,39 @@
 						"add": {
 							"component_groups": [
 								"ward_loading"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
 							]
 						}
 					}
@@ -2390,6 +2750,39 @@
 							"component_groups": [
 								"11_loading"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
+							]
 						}
 					}
 				]
@@ -2400,6 +2793,39 @@
 						"add": {
 							"component_groups": [
 								"wait_loading"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
 							]
 						}
 					}
@@ -2412,6 +2838,39 @@
 							"component_groups": [
 								"otherside_loading"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
+							]
 						}
 					}
 				]
@@ -2422,6 +2881,39 @@
 						"add": {
 							"component_groups": [
 								"5_loading"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
 							]
 						}
 					}
@@ -2434,6 +2926,39 @@
 							"component_groups": [
 								"pigstep_loading"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_on"
+							]
 						}
 					}
 				]
@@ -2444,6 +2969,39 @@
 						"add": {
 							"component_groups": [
 								"song_on"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
 							]
 						}
 					}
@@ -2456,6 +3014,39 @@
 							"component_groups": [
 								"13_on"
 							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
+							]
 						}
 					}
 				]
@@ -2466,6 +3057,39 @@
 						"add": {
 							"component_groups": [
 								"pigstep_on"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading"
 							]
 						}
 					}
