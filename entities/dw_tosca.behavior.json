@@ -522,24 +522,34 @@
 					]
 				}
 			},
-			"neutral_on": {
-				"minecraft:pushable": {
-				"is_pushable": true,
-				"is_pushable_by_piston": true
-				},
-				"minecraft:is_charged":{
-				}
-			},
 			"neutral_off": {
 				"minecraft:pushable": {
 				"is_pushable": false,
 				"is_pushable_by_piston": false
 				}
 			},
+			"at_p": {
+				"minecraft:is_stackable":{
+				}
+			},
+			"at_r": {
+				"minecraft:is_saddled":{
+				}
+			},
+			"neutral_on": {
+				"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+				},
+				"minecraft:is_stunned":{
+				}
+			},
 			"at_d": {
 				"minecraft:pushable": {
 					"is_pushable": false,
 					"is_pushable_by_piston": false
+				},
+				"minecraft:is_stackable":{
 				},
 				"minecraft:is_saddled":{
 				}
@@ -3157,6 +3167,8 @@
 						"remove": {
 							"component_groups": [
 								"neutral_off",
+								"at_p",
+								"at_r",
 								"at_d"
 							]
 						}
@@ -3173,6 +3185,41 @@
 						},
 						"remove": {
 							"component_groups": [
+								"neutral_on"
+							]
+						}
+					}
+				]
+			},
+			"at_p": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"at_p"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"at_r",
+								"neutral_on",
+								"at_d"
+							]
+						}
+					}
+				]
+			},
+			"at_r": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"at_r"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"at_p",
 								"neutral_on",
 								"at_d"
 							]
@@ -3185,9 +3232,15 @@
 					{
 						"add": {
 							"component_groups": [
-								"at_d",
+								"at_d"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"at_p",
 								"neutral_on",
-								"neutral_off"
+								"neutral_off",
+								"at_r"
 							]
 						}
 					}
