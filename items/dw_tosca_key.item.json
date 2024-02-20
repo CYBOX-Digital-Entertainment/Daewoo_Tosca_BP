@@ -3,8 +3,7 @@
 	"minecraft:item": {
 		"description": {
 			"identifier": "key:dw_tosca_key",
-			"menu_category": {
-			"category": "none"
+			"category": "equipment"
 		},
 		"components": {
 			"minecraft:icon": {
