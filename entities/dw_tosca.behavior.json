@@ -18,6 +18,26 @@
 			}
 		},
 		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"on_damage": {
+						"filters": {
+							"any_of": [
+								{
+									"all_of": [
+										{
+											"test": "has_tag",
+											"subject": "other",
+											"value": "unhittable"
+										}
+									]
+								}
+							]
+						}
+					},
+					"deals_damage": false
+				}
+			},
 			"minecraft:input_ground_controlled": {},
 			"minecraft:type_family": {
 				"family": [
