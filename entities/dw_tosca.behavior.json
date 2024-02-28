@@ -532,6 +532,11 @@
 					"value": 18
 				}
 			},
+			"credit": {
+				"minecraft:mark_variant":{
+					"value": 19
+				}
+			},
 			"car_horn": {
 				"minecraft:ambient_sound_interval": {
 					"event_name": "car_horn"
@@ -2344,12 +2349,37 @@
 						},
 						"remove": {
 							"component_groups": [
-								"freight_add",
-								"freight_remove",
 								"song_loading",
 								"song_on",
 								"13_loading",
-								"13_on"
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2425,7 +2455,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2469,7 +2500,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2513,7 +2545,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2557,7 +2590,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2601,7 +2635,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2645,7 +2680,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2689,7 +2725,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2733,7 +2770,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2777,7 +2815,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2821,7 +2860,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2865,7 +2905,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2909,7 +2950,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2953,7 +2995,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -2997,7 +3040,8 @@
 								"otherside_on",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -3041,7 +3085,8 @@
 								"otherside_on",
 								"5_loading",
 								"5_on",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -3085,7 +3130,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -3129,7 +3175,8 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading",
-								"pigstep_on"
+								"pigstep_on",
+								"credit"
 							]
 						}
 					}
@@ -3174,6 +3221,51 @@
 								"5_loading",
 								"5_on",
 								"pigstep_loading"
+							]
+						}
+					}
+				]
+			},
+			"credit": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"credit"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"song_loading",
+								"song_on",
+								"13_loading",
+								"13_on",
+								"cat_loading",
+								"cat_on",
+								"blocks_loading",
+								"blocks_on",
+								"chirp_loading",
+								"chirp_on",
+								"far_loading",
+								"far_on",
+								"mall_loading",
+								"mall_on",
+								"mellohi_loading",
+								"mellohi_on",
+								"stal_loading",
+								"stal_on",
+								"strad_loading",
+								"strad_on",
+								"ward_loading",
+								"ward_on",
+								"11_loading",
+								"11_on",
+								"otherside_loading",
+								"otherside_on",
+								"5_loading",
+								"5_on",
+								"pigstep_loading",
+								"pigstep_on"
 							]
 						}
 					}
