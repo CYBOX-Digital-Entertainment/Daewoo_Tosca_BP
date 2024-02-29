@@ -95,7 +95,7 @@
 				"priority": 0
 			},
 			"minecraft:rideable": {
-				"seat_count": 4,
+				"seat_count": 5,
 				"crouching_skip_interact": true,
 				"family_types": [
 					"player","rider"
@@ -120,6 +120,13 @@
 									{
 						"position": [
 							0.525,
+							0.45,
+							-3.1
+						]
+					},
+									{
+						"position": [
+							0,
 							0.45,
 							-3.1
 						]
