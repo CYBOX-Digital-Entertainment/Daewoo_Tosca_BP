@@ -7,7 +7,7 @@ try {
 
 
 } catch (error) {
-    if (error == "Error: Failed to call function 'spawnEntity'") {
+    
         const text = {
             "rawtext": [
                 {
@@ -16,6 +16,6 @@ try {
             ]
         }
         world.sendMessage(text)
-    }
+    
 
 }
